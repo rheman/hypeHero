@@ -1,0 +1,27 @@
+{
+	"name": "pessek/hypehero",
+	"type": "elgg-plugin",
+	"description": "Replaces owner block with cover hero",
+	"keywords": [
+		"elgg", "plugin", "autocomplete", "forms"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeHero"
+	},
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
